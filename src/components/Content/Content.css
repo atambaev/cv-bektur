@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.content{
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.hero{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.hero-left-img{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    border-radius: 300px;
+    transition: 1s;
+}
+
+.hero-img:hover{
+    transform: scale(1.2);
+}
+
+.hero-left-title{
+    text-align: center;
+}
+
+.hero-left-title{
+    margin: 0;
+}
+
+/* .skills{
+    display: flex;
+} */
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.skill-box{
+    /* background-color: rgba(250, 235, 215, 0.382); */
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    
+}
+
+.react,
+.html-css,
+.bootstrap-mui,
+.native,
+.ui-ux{
+    background-color: rgba(94, 94, 92, 0.744);
+    width: 200px;
+    margin-top: 10px;
+    text-align: end;
+}
+
+
